@@ -1,5 +1,6 @@
 # Plot Product 10
 # By Alvaro Silva
+# May, 2020
 
 # Load Packages
 import matplotlib
@@ -27,7 +28,7 @@ pink_pal = [ '#fce4ed','#f9bdd4',
              '#f04886','#ed216c',
              '#d31159']
 
-# Note for the Graph.
+# Note for every Graph.
 
 notes='Fuente: Elaboración propia en base a datos COVID-19 MinCiencia. Autores: José Ignacio Hernández y Álvaro Silva.'
 
@@ -47,7 +48,7 @@ plt.stackplot(dat.loc[:, 'Grupo de edad'],
                       ,'$60-69$', '$70-79$', '$80-89$', 
                       '$\geq 90$'])
 
-# Graph Options
+# Graph Options 
 
 plt.ylabel('Numero Fallecidos')
 plt.tick_params(labelsize=8)
