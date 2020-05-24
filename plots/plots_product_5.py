@@ -1,4 +1,4 @@
-# Plots product 20
+# Plots product 5
 # By Jose Ignacio Hernandez
 
 # Load packages
