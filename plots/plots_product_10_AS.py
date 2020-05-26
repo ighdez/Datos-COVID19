@@ -63,6 +63,6 @@ plt.xlabel(notes, fontsize=7)
 plt.title('Fallecidos por Edad', fontsize = 14)
 
 # Exporting Graph
-plt.savefig('fallecidos_edad.pdf', 
+plt.savefig('fallecidos_edad.png', 
             bbox_inches = 'tight',
             pad_inches = 0)
